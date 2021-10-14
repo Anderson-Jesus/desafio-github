@@ -1,0 +1,27 @@
+--GitHub--
+ctr + l = lipa tela
+ls = lista pastas no reposirório
+cd + nomepasta = abre pasta
+mkdir = cria nova pasta
+
+--Configurando GitHub--
+git config --global user.email "seuemail@gmail.com"
+git config --global user.name Seu nome
+
+--Iniciando Git--
+git init = inicia um repositório Git
+ls -a = mostra arquivos ocultos
+cd..  = volta um nível
+
+--Trabalhando com Git--
+git confif --list = lista de configuração
+git remote add origin + link = linca versão local ao repositório GitHub
+git remote -v = mostra para qual repositórios remotos esta apontado ls
+no GitHub
+------------------------------------------
+git add * = prepara arquivos p/ commit
+git commit -m "nome do commit" = nomeia commit
+git status = mostra status e modificações
+git push origin master = empurra versão local para GitHub
+git pull origin master = puxa versão do GitHub
+git clone + link = clona projeto remoto para pc
